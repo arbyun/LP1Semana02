@@ -52,6 +52,13 @@ namespace Specials
             Console.WriteLine($"Ulong: {slonger}");
             Console.WriteLine($"Uint: {sui}");
 
+            const double d1 = double.NegativeInfinity;
+            const double d2 = double.PositiveInfinity;
+            const double d3 = double.NaN;
+
+            const float f1 = float.NegativeInfinity;
+            const float f2 = float.PositiveInfinity;
+            const float f3 = float.NaN;
         }
     }
 }
