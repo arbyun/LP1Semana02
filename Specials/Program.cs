@@ -81,6 +81,17 @@ namespace Specials
             
             Console.WriteLine($"Value of float after overflow: {overft}");
             Console.WriteLine($"Value of double after overflow: {overdb}");
+
+            float fin, fit;
+            double din, dit;
+            
+            fin = fit = 10000000000.000003f;
+            Console.WriteLine($"Value of float after underflow: {fin == fit + 0.00000000000001}");
+            
+            din = dit = 10000000000.000003f;
+            Console.WriteLine($"Value of double after underflow: {din == dit + 0.00000000000001}");
+            
+            
         }
     }
 }
