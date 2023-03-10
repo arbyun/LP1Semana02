@@ -59,6 +59,16 @@ namespace Specials
             const float f1 = float.NegativeInfinity;
             const float f2 = float.PositiveInfinity;
             const float f3 = float.NaN;
+            
+            Console.WriteLine("Double:");
+            Console.WriteLine(d1);
+            Console.WriteLine(d2);  
+            Console.WriteLine(d3);   
+
+            Console.WriteLine("Float:");
+            Console.WriteLine(f1);   
+            Console.WriteLine(f2);   
+            Console.WriteLine(f3);   
         }
     }
 }
