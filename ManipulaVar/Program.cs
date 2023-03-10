@@ -11,6 +11,9 @@ namespace ManipulaVar
             x++;
             Console.WriteLine($"Current value of x: {x}");
 
+            --x;
+            Console.WriteLine($"Current value of x: {x}");
+
         }
     }
 }
