@@ -1,4 +1,6 @@
-﻿namespace Specials
+﻿using System;
+
+namespace Specials
 {
     static class Program
     {
@@ -26,7 +28,29 @@
             ulong slonger = ulong.MinValue;
             uint sui = uint.MinValue;
             
-            
+            Console.WriteLine("Max Values:");
+            Console.WriteLine($"Double: {db}");
+            Console.WriteLine($"Float: {ft}");
+            Console.WriteLine($"Int: {i}");
+            Console.WriteLine($"Sbyte: {sb}");
+            Console.WriteLine($"Short: {shortish}");
+            Console.WriteLine($"Long: {longish}");
+            Console.WriteLine($"Ushort: {shorter}");
+            Console.WriteLine($"Byte: {bt}");
+            Console.WriteLine($"Ulong: {longer}");
+            Console.WriteLine($"Uint: {ui}");
+
+            Console.WriteLine("Min Values:");
+            Console.WriteLine($"Double: {sdb}");
+            Console.WriteLine($"Float: {sft}");
+            Console.WriteLine($"Int: {si}");
+            Console.WriteLine($"Sbyte: {ssb}");
+            Console.WriteLine($"Short: {sshortish}");
+            Console.WriteLine($"Long: {slongish}");
+            Console.WriteLine($"Ushort: {sshorter}");
+            Console.WriteLine($"Byte: {sbt}");
+            Console.WriteLine($"Ulong: {slonger}");
+            Console.WriteLine($"Uint: {sui}");
 
         }
     }
