@@ -34,6 +34,10 @@ namespace ChatGPTMother
                             Console.WriteLine("I apologise. I'm not able to answer that question.");
                             break;
                     }
+
+                if (question != "EXIT") continue;
+                Console.WriteLine("Bye!");
+                break;
             }
         }
     }
