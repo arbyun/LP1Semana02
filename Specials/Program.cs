@@ -76,7 +76,11 @@ namespace Specials
             Console.WriteLine($"Value of int after overflow: {overi}");
             Console.WriteLine($"Value of uint after overflow: {overui}");
 
+            float overft = 2 * ft;
+            double overdb = 2 * db;
             
+            Console.WriteLine($"Value of float after overflow: {overft}");
+            Console.WriteLine($"Value of double after overflow: {overdb}");
         }
     }
 }
