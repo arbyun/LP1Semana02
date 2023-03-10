@@ -68,7 +68,15 @@ namespace Specials
             Console.WriteLine("Float:");
             Console.WriteLine(f1);   
             Console.WriteLine(f2);   
-            Console.WriteLine(f3);   
+            Console.WriteLine(f3);
+
+            int overi = i + 1;
+            uint overui = ui + 1;
+            
+            Console.WriteLine($"Value of int after overflow: {overi}");
+            Console.WriteLine($"Value of uint after overflow: {overui}");
+
+            
         }
     }
 }
