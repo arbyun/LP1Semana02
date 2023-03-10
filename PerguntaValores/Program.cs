@@ -20,7 +20,7 @@ namespace PerguntaValores
 
         private static void CalculateCylinder(double h, double r)
         {
-            double volume = Math.PI * (r * r) * h;
+            double volume = Math.PI * Math.Pow(r, 2) * h;
             double surfArea = 2 * Math.PI * r * (r + h);
 
             Console.WriteLine($"Cylinder's volume is: {volume}");
