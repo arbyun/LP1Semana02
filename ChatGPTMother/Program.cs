@@ -29,6 +29,10 @@ namespace ChatGPTMother
                         case "how old are you?":
                             Console.WriteLine("I'm one day old.");
                             break;
+                        
+                        default:
+                            Console.WriteLine("I apologise. I'm not able to answer that question.");
+                            break;
                     }
             }
         }
